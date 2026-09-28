@@ -1,0 +1,23 @@
+# Python / Backend
+backend/myvenv/
+backend/__pycache__/
+backend/.env
+backend/boomerbot.db
+backend/knowledge.db
+backend/chroma_db/
+backend/chroma_db.*/
+backend/uploads/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/

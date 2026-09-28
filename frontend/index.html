@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="BoomerBot - Enterprise AI Knowledge Preservation Platform. Preserve expertise. Empower future teams." />
+  <title>BoomerBot - Knowledge Preservation Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    window.addEventListener('error', (event) => {
+      document.body.innerHTML = '<div style="color:red; padding:20px; font-size:20px; background:black; height: 100vh; z-index: 999999; position: relative;">' + event.error.stack.replace(/\n/g, '<br/>') + '</div>';
+    });
+  </script>
+</body>
+
+</html>
