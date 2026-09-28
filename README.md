@@ -1,6 +1,4 @@
 # BoomerBot 🧠
-**Team:** SAP Knowledge Nexus (I-DS-A)
-**Members:** Sagar Choudhari, Harshvardhan Patil
 
 BoomerBot is an AI-powered Enterprise Knowledge Preservation System designed to capture, structure, and query the tacit knowledge of departing senior engineers ("Boomers") before they retire.
 
